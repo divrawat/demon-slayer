@@ -1,5 +1,5 @@
-export const DOMAIN = 'http://localhost:3000';
-// export const DOMAIN = 'https://www.demonslayermanga.in.net';
+// export const DOMAIN = 'http://localhost:3000';
+export const DOMAIN = 'https://www.demonslayermanga.in.net';
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Demon Slayer: Kimetsu no Yaiba</u></a> is a Japanese manga and anime series by Koyoharu Gotouge. It follows Tanjiro Kamado, a boy who becomes a demon slayer after his family is killed and his sister Nezuko is turned into a demon. Tanjiro seeks revenge and a cure for Nezuko, facing many demons and challenges along the way. The series is praised for its compelling characters, stunning animation, and intense action.`;
 
