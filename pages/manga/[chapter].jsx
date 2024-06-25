@@ -26,11 +26,11 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
     const nextChapter = chapterIndex < totalChapters - 1 ? chaptersData[chapterIndex + 1].chapterNumber : null;
 
 
-    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}.`
+    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}. Tanjiro Kamado, a young boy who becomes a demon slayer after his family is slaughtered by demons. He seeks revenge while protecting his demon-turned sister, Nezuko, and mastering swordsmanship in a world filled with supernatural threats.`
     const URL = params.chapter;
-    const currentDate = new Date();
-    const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
-    const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
+    // const currentDate = new Date();
+    // const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
+    // const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
 
 
     const schema =
@@ -57,8 +57,8 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
                 "url": `${LOGO_URL}`
             }
         },
-        "datePublished": datePublished,
-        "dateModified": dateModified
+        // "datePublished": datePublished,
+        // "dateModified": dateModified
     }
 
     const head = () => (
